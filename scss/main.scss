@@ -1,3 +1,4 @@
+$primary : #8BA900;
 body, html {
   padding: 0px;
   margin: 0px;
@@ -20,7 +21,7 @@ header {
   .wrapper {
     width: 55vw;
     margin: auto;
-    padding: .2vw;
+    padding: .7vw;
     .row {
       display: flex;
       align-items: center;
@@ -106,7 +107,7 @@ header {
   }
 
   &.primary {
-    background-color: #4c77c3;
+    background-color: $primary;
   }
   &.warn {
     background-color: #f34b42;
@@ -132,7 +133,7 @@ main {
     .left {
       width: 17vw;
       padding: 1.5vw .5vw 1.5vw 2vw;
-      background-image: url("../assets/images/info_box_left_bg.png");
+      background-image: url("../assets/images/dostavim_ny_11.png");
       background-size: cover;
       background-repeat: no-repeat;
       color: #666666;
@@ -165,13 +166,39 @@ main {
       background-size:cover;
       background-repeat: no-repeat;
       background-position-x: center;
+      position: relative;
+      .info-slider {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        background-color: rgba($primary, .8);
+        color: white;
+        width: 16vw;
+        padding: 1vw;
+        .item {
+          height: 20vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .title {
+            font-size: 1vw;
+          }
+          .content {
+            font-size: .8vw;
+            margin-top: .5vw;
+          }
+          .btn {
+            align-self: center;
+          }
+        }
+      }
     }
   }
 
   .first {
     margin-top: 2vw;
     padding: 3vw 3vw 2vw 3vw;
-    background-image: url("../assets/images/firsrt_bg.png");
+    background-image: url("../assets/images/dostavim_ny_02.png");
     .wrapper {
       width: 55vw;
       margin: auto;
@@ -181,6 +208,7 @@ main {
         font-weight: bolder;
         text-align: center;
         margin-bottom: 3vw;
+        margin-top: 1vw;
       }
       .row {
         display: flex;
@@ -306,11 +334,15 @@ main {
     .wrapper {
       width: 50vw;
       margin: auto;
-      background-image: url("../assets/images/second_wrap_bg.png");
+      background: url("../assets/images/dostavim_ny_019.png"), url("../assets/images/perf-bg.png") center no-repeat;
+      background-size: cover;
       display: flex;
       justify-content: space-between;
       padding: 2.5vw;
       align-items: center;
+      img {
+        width: 4vw;
+      }
       .title {
         font-size: 1.2vw;
         font-weight: bold;
@@ -423,8 +455,55 @@ main {
       width: 55vw;
       margin: auto;
       background-color: white;
-      height: 50vh;
+      height: 53vh;
       margin-top: 4vw;
+
+      .item {
+        width: 26vw;
+        background-color: white;
+        box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.06);
+        padding: 1.5vw 2vw;
+        box-sizing: border-box;
+        height: 53vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .slid-wrapper {
+          .slid-title {
+            font-size: 1.1vw;
+            font-weight: bolder;
+            color: $primary;
+            text-align: center;
+          }
+
+          .content {
+            color: #666666;
+            font-size: .8vw;
+            text-align: center;
+            line-height: 1.6;
+            margin-top: 1vw;
+          }
+        }
+
+        .slid-footer {
+          position: relative;
+          border-top: 1px solid rgba(0,0,0,.3);
+          img {
+            width: 2.7vw;
+            margin: auto;
+            position: absolute;
+            left: 45%;
+            top: -3.5vh;
+          }
+          .name {
+            text-align: center;
+            font-size: 1vw;
+            font-weight: bolder;
+            padding-top: 2vw;
+          }
+        }
+
+      }
     }
 
     .title-partners {
@@ -437,12 +516,23 @@ main {
 
     .partners-block {
       width: 55vw;
-      height: 20vh;
       margin: auto;
-      background-color: white;
       margin-top: 2vw;
+      background: white;
+      height: 20vh;
+      .item {
+        width: 8vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        height: 20vh;
+        img {
+          width: 8vw;
+        }
+      }
     }
   }
+
 }
 
 footer {

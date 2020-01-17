@@ -6,8 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="js/owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/owl/assets/owl.theme.default.min.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src=""></script>
     <title>Document</title>
 </head>
 <body>
@@ -15,16 +20,16 @@
 <header>
     <div class="wrapper">
         <div class="row">
-            <img src="./assets/images/logo.png" alt="" class="logo">
+            <img src="./assets/images/logo_ny-e1576239333673.png" alt="" class="logo">
             <div class="phone">
-                <img src="./assets/images/phone.png" alt="" class="phone_img">
+                <img src="./assets/images/phone.svg" alt="" class="phone_img">
                 <div class="item">+7 (800) 200-77-40</div>
                 <div class="item">+7 (800) 200-77-40</div>
             </div>
 
             <div class="btn primary">Начать работу</div>
             <div class="profil">
-                <img src="./assets/images/profil.png" alt="" class="profil_img">
+                <img src="./assets/images/profil.svg" alt="" class="profil_img">
                 <a href="">Личный кабинет</a>
             </div>
         </div>
@@ -66,7 +71,35 @@
 
             <div class="btn warn">РАСЧЕТ СТОИМОСТИ ДОСТАВКИ</div>
         </div>
-        <div class="right"></div>
+        <div class="right">
+            <div class="info-slider">
+                <div  id="owl" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="wrap">
+                            <div class="title">Персональный менеджер</div>
+                            <div class="content">Индивидуальный менеджер, всегда на связи и контролирует весь процесс сотрудничества</div>
+                        </div>
+                        <div class="btn white">хочу попробовать</div>
+                    </div>
+
+                    <div class="item">
+                        <div class="wrap">
+                            <div class="title">Персональный менеджер</div>
+                            <div class="content">Индивидуальный менеджер, всегда на связи и контролирует весь процесс сотрудничества</div>
+                        </div>
+                        <div class="btn white">хочу попробовать</div>
+                    </div>
+
+                    <div class="item">
+                        <div class="wrap">
+                            <div class="title">Персональный менеджер</div>
+                            <div class="content">Индивидуальный менеджер, всегда на связи и контролирует весь процесс сотрудничества</div>
+                        </div>
+                        <div class="btn white">хочу попробовать</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="first">
@@ -78,7 +111,7 @@
                     <div class="item_wrap">
                         <div class="item">
                             <div class="header">Город отправления</div>
-                            <img src="./assets/images/map_point.png">
+                            <img src="./assets/images/pin2.svg">
                             <input type="text" placeholder="Город отправления">
                         </div>
                         <div class="flor"><span>Москва</span>&nbsp;&nbsp;&nbsp;<span>С. Петербург</span>&nbsp;&nbsp;&nbsp;<span>Екатеринбург</span></div>
@@ -89,7 +122,7 @@
                     <div class="item_wrap">
                         <div class="item">
                             <div class="header">Город назначения</div>
-                            <img src="./assets/images/map_point.png">
+                            <img src="./assets/images/pin2.svg">
                             <input type="text" placeholder="Город назначения">
                         </div>
                         <div class="flor"><span>Москва</span>&nbsp;&nbsp;&nbsp;<span>С. Петербург</span>&nbsp;&nbsp;&nbsp;<span>Екатеринбург</span></div>
@@ -99,7 +132,7 @@
                     <div class="item_wrap">
                     <div class="item small">
                             <div class="header">Вес, кг</div>
-                            <img src="./assets/images/weight.png">
+                            <img src="./assets/images/kg.svg">
                             <input type="text">
                         </div>
                         <div class="flor">&nbsp;</div>
@@ -170,7 +203,7 @@
 
     <section class="second">
         <div class="wrapper">
-            <img src="./assets/images/search.png" class="img_search">
+            <img src="./assets/images/search.svg" class="img_search">
             <div class="title">Отследить<br>отправление</div>
             <input type="text" placeholder="Номер для отслеживания">
             <div class="btn primary">Отследить</div>
@@ -228,7 +261,7 @@
 
 
                     <div class="item">
-                        <img src="./assets/images/tabs/integration.png" alt="">
+                        <img src="./assets/images/tabs/integration2.png" alt="">
                         <div class="content">
                             <div class="title">Широкий выбор возможностей интеграции</div>
                             <div class="text">
@@ -533,14 +566,118 @@
     <div class="wrapper">
         <div class="title">Отзывы клиентов</div>
        <div class="slider-box">
-           <div class="item"></div>
-           <div class="item"></div>
-           <div class="item"></div>
-           <div class="item"></div>
+           <div  id="owl-first" class="owl-carousel owl-theme">
+
+               <div class="item">
+                   <div class="slid-wrapper">
+                       <div class="slid-title">ПК "Дом Ягод" </div>
+                       <div class="content">
+                           Производственная компания «Дом Ягод» является
+                           лидером рынка не только на территории региона,
+                           но и в масштабах всей страны. Мы сами занимаемся
+                           сбором ягод для нашей продукции, производим ее и
+                           сами реализуем наш товар.  Основной выбора ДОСТАВИМ,
+                           стала простота получения большого количества
+                           доставщиков по одному договору и в одном личном
+                           кабинете. Такое простое решение вопроса доставки,
+                           позволяет нам фокусироваться на самом важном –
+                           производстве натурального и вкусного продукта,
+                           сохраняющего всю пользу свежих ягод.
+                       </div>
+                   </div>
+                   <div class="slid-footer">
+                       <img src="./assets/images/1swe.png" alt="">
+                       <div class="name">Дмитрий</div>
+                   </div>
+               </div>
+
+               <div class="item">
+                   <div class="slid-wrapper">
+                       <div class="slid-title">ПК "Дом Ягод" </div>
+                       <div class="content">
+                           Производственная компания «Дом Ягод» является
+                           лидером рынка не только на территории региона,
+                           но и в масштабах всей страны. Мы сами занимаемся
+                           сбором ягод для нашей продукции, производим ее и
+                           сами реализуем наш товар.  Основной выбора ДОСТАВИМ,
+                           стала простота получения большого количества
+                           доставщиков по одному договору и в одном личном
+                           кабинете. Такое простое решение вопроса доставки,
+                           позволяет нам фокусироваться на самом важном –
+                           производстве натурального и вкусного продукта,
+                           сохраняющего всю пользу свежих ягод.
+                       </div>
+                   </div>
+                   <div class="slid-footer">
+                       <img src="./assets/images/1swe.png" alt="">
+                       <div class="name">Дмитрий</div>
+                   </div>
+               </div>
+
+               <div class="item">
+                   <div class="slid-wrapper">
+                       <div class="slid-title">ПК "Дом Ягод" </div>
+                       <div class="content">
+                           Производственная компания «Дом Ягод» является
+                           лидером рынка не только на территории региона,
+                           но и в масштабах всей страны. Мы сами занимаемся
+                           сбором ягод для нашей продукции, производим ее и
+                           сами реализуем наш товар.  Основной выбора ДОСТАВИМ,
+                           стала простота получения большого количества
+                           доставщиков по одному договору и в одном личном
+                           кабинете. Такое простое решение вопроса доставки,
+                           позволяет нам фокусироваться на самом важном –
+                           производстве натурального и вкусного продукта,
+                           сохраняющего всю пользу свежих ягод.
+                       </div>
+                   </div>
+                   <div class="slid-footer">
+                       <img src="./assets/images/1swe.png" alt="">
+                       <div class="name">Дмитрий</div>
+                   </div>
+               </div>
+
+               <div class="item">
+                   <div class="slid-wrapper">
+                       <div class="slid-title">ПК "Дом Ягод" </div>
+                       <div class="content">
+                           Производственная компания «Дом Ягод» является
+                           лидером рынка не только на территории региона,
+                           но и в масштабах всей страны. Мы сами занимаемся
+                           сбором ягод для нашей продукции, производим ее и
+                           сами реализуем наш товар.  Основной выбора ДОСТАВИМ,
+                           стала простота получения большого количества
+                           доставщиков по одному договору и в одном личном
+                           кабинете. Такое простое решение вопроса доставки,
+                           позволяет нам фокусироваться на самом важном –
+                           производстве натурального и вкусного продукта,
+                           сохраняющего всю пользу свежих ягод.
+                       </div>
+                   </div>
+                   <div class="slid-footer">
+                       <img src="./assets/images/1swe.png" alt="">
+                       <div class="name">Дмитрий</div>
+                   </div>
+               </div>
+
+           </div>
+
        </div>
 
         <div class="title-partners">Наши партнеры</div>
-        <div class="partners-block"></div>
+        <div class="partners-block">
+            <div id="owl-second" class="owl-carousel owl-theme">
+               <div class="item"> <img src="./assets/images/slider_partners/logo.png" alt=""></div>
+               <div class="item"> <img src="./assets/images/slider_partners/b2cpl.png" alt=""></div>
+               <div class="item"> <img src="./assets/images/slider_partners/boxberry.png" alt=""></div>
+               <div class="item"> <img src="./assets/images/slider_partners/cdek.png" alt=""></div>
+               <div class="item"> <img src="./assets/images/slider_partners/dpd.png" alt=""></div>
+               <div class="item"> <img src="./assets/images/slider_partners/iml.png" alt=""></div>
+               <div class="item"> <img src="./assets/images/slider_partners/pek.png" alt=""></div>
+               <div class="item"> <img src="./assets/images/slider_partners/Russian_Post.png" alt=""></div>
+               <div class="item"> <img src="./assets/images/slider_partners/smart.png" alt=""></div>
+            </div>
+        </div>
     </div>
 
 
