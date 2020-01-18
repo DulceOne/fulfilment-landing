@@ -29,4 +29,18 @@ $(document).ready(function(){
             center: true
         }
     );
+
+    $('.drop').click(() => {
+        $('.navigation_mobile .wrapper').show()
+        $('.navigation_mobile .row .close').show()
+        $('.navigation_mobile .row .drop').hide()
+
+    })
+
+    $('.close').click(() => {
+        $('.navigation_mobile .wrapper').hide()
+        $('.navigation_mobile .row .close').hide()
+        $('.navigation_mobile .row .drop').show()
+
+    })
 });
