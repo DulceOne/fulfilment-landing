@@ -814,6 +814,9 @@ footer {
       font-weight: bold!important;
     }
     .tabs {
+      padding: 4vw!important;
+      width: 100% !important;
+      box-sizing: border-box!important;
       .tab {
         flex-direction: column;
         align-items: center;
@@ -840,26 +843,107 @@ footer {
             display: flex!important;
             align-items: start!important;
             width: 100%!important;
-            margin-top: 3vw!important;
+            margin-top: 8vw !important;
             .content {
-                .title {
-                  font-size: 5vw!important;
-                  color: black!important;
-                }
-                .text {
-                  margin-top: .7vw!important;
-                  color: #666666!important;
-                  font-size: 4.5vw!important;
-                  line-height: 1.5!important;
-                }
-              img {
-                margin-right: 4vw!important;
+              .title {
+                font-size: 5vw!important;
+                color: black!important;
               }
+              .text {
+                margin-top: .7vw!important;
+                color: #666666!important;
+                font-size: 4.5vw!important;
+                line-height: 1.5!important;
               }
+            }
+            img {
+              margin-right: 4vw!important;
+              width: 15vw!important;
+            }
           }
         }
       }
     }
-
   }
+
+  .paralax {
+    .wrapper {
+      .title {
+        font-size: 13vw!important;
+      }
+      .title-partners {
+        margin-top: 35vh!important;
+        font-size: 8vw!important;
+      }
+      .partners-block {
+        margin-top: 5vh!important;
+        width: 90vw!important;
+        .item {
+          width: unset!important;
+          img {
+            width: 60vw!important;
+            margin: auto;
+          }
+        }
+      }
+      .slider-box {
+        width: 90vw!important;
+        .item {
+          height: unset!important;
+          width: 100% !important;
+          .slid-wrapper {
+            .slid-title {
+              font-size: 6vw!important;
+              margin-top: 2vw!important;
+            }
+            .content {
+              font-size: 5vw!important;
+              margin-top: 2vw!important;
+            }
+
+          }
+          .slid-footer {
+            .name {
+              font-size: 4vw!important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    .wrapper {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0vw 5vw;
+      flex-direction: column;
+      .company {
+        display: flex;
+        flex-direction: column;
+        align-items: unset;
+        width: unset;
+        .title {
+          font-size: 4vw;
+        }
+      }
+      .address {
+        font-size: 4vw;
+        margin-top: 2vw;
+        width: 100%;
+      }
+
+      .links {
+        width: 100%;
+        font-size: 4vw;
+        margin-top: 3vw;
+        display: flex;
+        flex-direction: column;
+        a {
+          margin-top: 3vw;
+        }
+      }
+    }
+  }
+
 }

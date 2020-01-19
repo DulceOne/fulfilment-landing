@@ -7,6 +7,23 @@ $(document).ready(function(){
             dots: true,
             autoplay: true,
             loop: true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false,
+                    dots: false,
+                },
+                600:{
+                    items:1,
+                    nav:false,
+                    ots: false
+                },
+                1000:{
+                    items:2,
+                    nav:true,
+                    loop:false
+                }
+            }
         }
     );
 
@@ -16,7 +33,24 @@ $(document).ready(function(){
             margin: 55,
             autoplay: true,
             loop: true,
-            center: true
+            center: true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false,
+                    dots: false,
+                },
+                600:{
+                    items:1,
+                    nav:false,
+                    ots: false
+                },
+                1000:{
+                    items:2,
+                    nav:true,
+                    loop:false
+                }
+            }
         }
     );
 
@@ -26,7 +60,24 @@ $(document).ready(function(){
             margin: 55,
             autoplay: true,
             loop: true,
-            center: true
+            center: true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false,
+                    dots: false,
+                },
+                600:{
+                    items:1,
+                    nav:false,
+                    ots: false
+                },
+                1000:{
+                    items:2,
+                    nav:true,
+                    loop:false
+                }
+            }
         }
     );
 
