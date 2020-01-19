@@ -14,6 +14,14 @@ body {
   background-position-x: center;
 }
 
+.upparrow {
+  position: fixed;
+  right: 5vw;
+  bottom: 10vh;
+  cursor: pointer;
+  opacity: .6;
+}
+
 header {
   background-color: white;
   border-top: .55px solid rgba(0,0,0,.1);

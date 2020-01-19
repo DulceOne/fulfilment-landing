@@ -77,4 +77,13 @@ $(document).ready(function(){
         $('.navigation_mobile .row .drop').show()
 
     })
+
+    $('.upparrow').click(function(){
+        scrollTo('header')
+    });
+
+    function scrollTo(element) {
+        $('html, body').animate({scrollTop:$(`#${element}`).position().top}, 500);
+
+    }
 });
