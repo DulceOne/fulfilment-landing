@@ -46,27 +46,31 @@ header .wrapper .row .phone .phone_img {
   width: 30px;
   margin-right: .2vw;
 }
-/* line 39, ../scss/main.scss */
+/* line 40, ../scss/main.scss */
+header .wrapper .row .phone a img {
+  width: 2vw;
+}
+/* line 44, ../scss/main.scss */
 header .wrapper .row .phone .item {
   font-size: .85vw;
   color: #333;
   font-weight: bolder;
 }
-/* line 43, ../scss/main.scss */
+/* line 48, ../scss/main.scss */
 header .wrapper .row .phone .item:nth-child(n+3) {
   margin-left: 1vw;
 }
-/* line 48, ../scss/main.scss */
+/* line 53, ../scss/main.scss */
 header .wrapper .row .profil {
   display: flex;
   align-items: center;
 }
-/* line 51, ../scss/main.scss */
+/* line 56, ../scss/main.scss */
 header .wrapper .row .profil .profil_img {
   width: 22px;
   margin-right: .5vw;
 }
-/* line 55, ../scss/main.scss */
+/* line 60, ../scss/main.scss */
 header .wrapper .row .profil a {
   text-decoration: none;
   color: #333333;
@@ -74,20 +78,20 @@ header .wrapper .row .profil a {
   background-color: transparent;
   transition-property: background-color, box-shadow, border, color, opacity, transform;
 }
-/* line 65, ../scss/main.scss */
+/* line 70, ../scss/main.scss */
 header .navigation {
   width: 100%;
   border-top: 0.55px solid rgba(0, 0, 0, 0.35);
   border-bottom: 0.55px solid rgba(0, 0, 0, 0.35);
 }
-/* line 70, ../scss/main.scss */
+/* line 75, ../scss/main.scss */
 header .navigation .wrapper {
   width: 55vw;
   margin: auto;
   display: flex;
   padding: .7vw;
 }
-/* line 76, ../scss/main.scss */
+/* line 81, ../scss/main.scss */
 header .navigation .wrapper .item a {
   color: #333333;
   text-transform: uppercase;
@@ -95,18 +99,18 @@ header .navigation .wrapper .item a {
   padding: 5px 15px;
   text-decoration: none;
 }
-/* line 82, ../scss/main.scss */
+/* line 87, ../scss/main.scss */
 header .navigation .wrapper .item a:hover {
   color: #f34b42;
   transition: all .3s;
 }
 
-/* line 93, ../scss/main.scss */
+/* line 98, ../scss/main.scss */
 .navigation_mobile {
   display: none;
 }
 
-/* line 98, ../scss/main.scss */
+/* line 103, ../scss/main.scss */
 .btn {
   width: fit-content;
   font-size: .9vw;
@@ -118,39 +122,39 @@ header .navigation .wrapper .item a:hover {
   letter-spacing: 0.05vw;
   color: white;
 }
-/* line 109, ../scss/main.scss */
+/* line 114, ../scss/main.scss */
 .btn:hover {
   box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
 }
-/* line 113, ../scss/main.scss */
+/* line 118, ../scss/main.scss */
 .btn.primary {
   background-color: #8BA900;
 }
-/* line 116, ../scss/main.scss */
+/* line 121, ../scss/main.scss */
 .btn.warn {
   background-color: #f34b42;
   padding: 1vw 1.5vw;
 }
-/* line 120, ../scss/main.scss */
+/* line 125, ../scss/main.scss */
 .btn.white {
   background-color: white;
   color: #3C76C8;
 }
 
-/* line 127, ../scss/main.scss */
+/* line 132, ../scss/main.scss */
 main {
   width: 100%;
   padding-top: 2vw;
   font-family: 'Rubik', sans-serif;
   background-color: whitesmoke;
 }
-/* line 132, ../scss/main.scss */
+/* line 137, ../scss/main.scss */
 main .info_box {
   width: 55vw;
   margin: auto;
   display: flex;
 }
-/* line 136, ../scss/main.scss */
+/* line 141, ../scss/main.scss */
 main .info_box .left {
   width: 17vw;
   padding: 1.5vw .5vw 1.5vw 2vw;
@@ -159,32 +163,32 @@ main .info_box .left {
   background-repeat: no-repeat;
   color: #666666;
 }
-/* line 143, ../scss/main.scss */
+/* line 148, ../scss/main.scss */
 main .info_box .left .title {
   color: #3C76C8;
   font-size: 2vw;
   font-weight: bolder;
 }
-/* line 148, ../scss/main.scss */
+/* line 153, ../scss/main.scss */
 main .info_box .left .text {
   line-height: 30px;
   font-size: 1vw;
   margin-top: 1vw;
   font-weight: bold;
 }
-/* line 154, ../scss/main.scss */
+/* line 159, ../scss/main.scss */
 main .info_box .left .info {
   margin-top: 1vw;
   font-size: .80vw;
   line-height: 1.2vw;
   font-weight: 500;
 }
-/* line 161, ../scss/main.scss */
+/* line 166, ../scss/main.scss */
 main .info_box .left .btn {
   margin-top: 3vw;
   font-size: .7vw;
 }
-/* line 166, ../scss/main.scss */
+/* line 171, ../scss/main.scss */
 main .info_box .right {
   width: 38vw;
   background-image: url("../assets/images/happy_bz.jpg");
@@ -193,7 +197,7 @@ main .info_box .right {
   background-position-x: center;
   position: relative;
 }
-/* line 173, ../scss/main.scss */
+/* line 178, ../scss/main.scss */
 main .info_box .right .info-slider {
   position: absolute;
   right: 0px;
@@ -203,38 +207,38 @@ main .info_box .right .info-slider {
   width: 16vw;
   padding: 1vw;
 }
-/* line 181, ../scss/main.scss */
+/* line 186, ../scss/main.scss */
 main .info_box .right .info-slider .item {
   height: 20vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-/* line 186, ../scss/main.scss */
+/* line 191, ../scss/main.scss */
 main .info_box .right .info-slider .item .title {
   font-size: 1vw;
 }
-/* line 189, ../scss/main.scss */
+/* line 194, ../scss/main.scss */
 main .info_box .right .info-slider .item .content {
   font-size: .8vw;
   margin-top: .5vw;
 }
-/* line 193, ../scss/main.scss */
+/* line 198, ../scss/main.scss */
 main .info_box .right .info-slider .item .btn {
   align-self: center;
 }
-/* line 201, ../scss/main.scss */
+/* line 206, ../scss/main.scss */
 main .first {
   margin-top: 2vw;
   padding: 3vw 3vw 2vw 3vw;
   background-image: url("../assets/images/dostavim_ny_02.png");
 }
-/* line 205, ../scss/main.scss */
+/* line 210, ../scss/main.scss */
 main .first .wrapper {
   width: 55vw;
   margin: auto;
 }
-/* line 208, ../scss/main.scss */
+/* line 213, ../scss/main.scss */
 main .first .wrapper .title {
   font-size: 2.2vw;
   color: white;
@@ -243,28 +247,28 @@ main .first .wrapper .title {
   margin-bottom: 3vw;
   margin-top: 1vw;
 }
-/* line 216, ../scss/main.scss */
+/* line 221, ../scss/main.scss */
 main .first .wrapper .row {
   display: flex;
   margin-top: 1vw;
 }
-/* line 219, ../scss/main.scss */
+/* line 224, ../scss/main.scss */
 main .first .wrapper .row .inputs {
   display: flex;
   align-items: center;
 }
-/* line 223, ../scss/main.scss */
+/* line 228, ../scss/main.scss */
 main .first .wrapper .row .inputs .item_wrap .flor {
   flex: 100%;
   font-size: .8vw;
   color: white;
   margin-top: .5vw;
 }
-/* line 228, ../scss/main.scss */
+/* line 233, ../scss/main.scss */
 main .first .wrapper .row .inputs .item_wrap .flor span {
   border-bottom: 1px dashed white;
 }
-/* line 232, ../scss/main.scss */
+/* line 237, ../scss/main.scss */
 main .first .wrapper .row .inputs .item_wrap .item {
   border: 1px solid #ffff;
   border-radius: 6px;
@@ -274,19 +278,19 @@ main .first .wrapper .row .inputs .item_wrap .item {
   width: 15vw;
   padding: .7vw .5vw .9vw .7vw;
 }
-/* line 240, ../scss/main.scss */
+/* line 245, ../scss/main.scss */
 main .first .wrapper .row .inputs .item_wrap .item .header {
   font-size: .7vw;
   flex: 100%;
   color: #D3D3D3;
   padding-left: 2vw;
 }
-/* line 246, ../scss/main.scss */
+/* line 251, ../scss/main.scss */
 main .first .wrapper .row .inputs .item_wrap .item img {
   width: 25px;
   margin-right: .7vw;
 }
-/* line 250, ../scss/main.scss */
+/* line 255, ../scss/main.scss */
 main .first .wrapper .row .inputs .item_wrap .item input {
   background: transparent;
   outline: none;
@@ -294,94 +298,94 @@ main .first .wrapper .row .inputs .item_wrap .item input {
   font-size: 1vw;
   color: white;
 }
-/* line 256, ../scss/main.scss */
+/* line 261, ../scss/main.scss */
 main .first .wrapper .row .inputs .item_wrap .item input::placeholder {
   color: #D3D3D3;
   font-size: .9vw;
 }
-/* line 262, ../scss/main.scss */
+/* line 267, ../scss/main.scss */
 main .first .wrapper .row .inputs .item_wrap .item.small {
   width: 7vw;
   padding-top: .9vw;
   padding-bottom: .9vw;
   margin-left: 1.5vw;
 }
-/* line 267, ../scss/main.scss */
+/* line 272, ../scss/main.scss */
 main .first .wrapper .row .inputs .item_wrap .item.small input {
   width: 4vw;
 }
-/* line 273, ../scss/main.scss */
+/* line 278, ../scss/main.scss */
 main .first .wrapper .row .inputs .btn {
   margin-left: 1.5vw;
   padding: 1.5vw 1vw;
   font-size: .8vw;
   margin-bottom: 1.5vw;
 }
-/* line 279, ../scss/main.scss */
+/* line 284, ../scss/main.scss */
 main .first .wrapper .row .inputs .left_arrow {
   color: white;
   font-size: 1.8vw;
   margin: 0vw 1vw;
   margin-bottom: 1vw;
 }
-/* line 287, ../scss/main.scss */
+/* line 292, ../scss/main.scss */
 main .first .wrapper .row .items {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 3vw;
 }
-/* line 292, ../scss/main.scss */
+/* line 297, ../scss/main.scss */
 main .first .wrapper .row .items .item {
   background: white;
   width: 13vw;
 }
-/* line 295, ../scss/main.scss */
+/* line 300, ../scss/main.scss */
 main .first .wrapper .row .items .item .header {
   display: flex;
   padding: 1.5vw .5vw .5vw 1vw;
 }
-/* line 298, ../scss/main.scss */
+/* line 303, ../scss/main.scss */
 main .first .wrapper .row .items .item .header .company {
   width: 3.5vw;
 }
-/* line 301, ../scss/main.scss */
+/* line 306, ../scss/main.scss */
 main .first .wrapper .row .items .item .header .name {
   font-size: .8vw;
   color: #3C76C8;
   width: 7vw;
 }
-/* line 307, ../scss/main.scss */
+/* line 312, ../scss/main.scss */
 main .first .wrapper .row .items .item .custom_hr {
   height: 1px;
   width: 100%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-/* line 313, ../scss/main.scss */
+/* line 318, ../scss/main.scss */
 main .first .wrapper .row .items .item .flor {
   display: flex;
   font-size: .9vw;
   padding: 1.2vw .7vw;
 }
-/* line 317, ../scss/main.scss */
+/* line 322, ../scss/main.scss */
 main .first .wrapper .row .items .item .flor .weight, main .first .wrapper .row .items .item .flor .day {
   color: #666666;
 }
-/* line 320, ../scss/main.scss */
+/* line 325, ../scss/main.scss */
 main .first .wrapper .row .items .item .flor .day {
   margin-left: 1vw;
 }
-/* line 323, ../scss/main.scss */
+/* line 328, ../scss/main.scss */
 main .first .wrapper .row .items .item .flor .price {
   margin-left: auto;
   color: red;
 }
-/* line 334, ../scss/main.scss */
+/* line 339, ../scss/main.scss */
 main .second {
   width: 100%;
   padding: 5vw 0vw;
 }
-/* line 337, ../scss/main.scss */
+/* line 342, ../scss/main.scss */
 main .second .wrapper {
   width: 50vw;
   margin: auto;
@@ -392,16 +396,16 @@ main .second .wrapper {
   padding: 2.5vw;
   align-items: center;
 }
-/* line 346, ../scss/main.scss */
+/* line 351, ../scss/main.scss */
 main .second .wrapper img {
   width: 4vw;
 }
-/* line 349, ../scss/main.scss */
+/* line 354, ../scss/main.scss */
 main .second .wrapper .title {
   font-size: 1.2vw;
   font-weight: bold;
 }
-/* line 353, ../scss/main.scss */
+/* line 358, ../scss/main.scss */
 main .second .wrapper input {
   padding: 1vw;
   color: #666666;
@@ -409,19 +413,19 @@ main .second .wrapper input {
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 6px;
 }
-/* line 360, ../scss/main.scss */
+/* line 365, ../scss/main.scss */
 main .second .wrapper .btn {
   padding: 1vw;
   font-size: .8vw;
 }
-/* line 367, ../scss/main.scss */
+/* line 372, ../scss/main.scss */
 main .third {
   width: 100%;
   background-color: white;
   padding: 3vw;
   box-sizing: border-box;
 }
-/* line 372, ../scss/main.scss */
+/* line 377, ../scss/main.scss */
 main .third .header {
   width: 100%;
   text-align: center;
@@ -429,12 +433,12 @@ main .third .header {
   color: #333333;
   font-weight: bold;
 }
-/* line 379, ../scss/main.scss */
+/* line 384, ../scss/main.scss */
 main .third .tabs {
   width: 55vw;
   margin: auto;
 }
-/* line 382, ../scss/main.scss */
+/* line 387, ../scss/main.scss */
 main .third .tabs ul {
   display: flex;
   width: 32vw;
@@ -442,62 +446,62 @@ main .third .tabs ul {
   justify-content: space-between;
   margin-top: 1vw;
 }
-/* line 388, ../scss/main.scss */
+/* line 393, ../scss/main.scss */
 main .third .tabs ul li {
   font-size: 1vw;
   list-style-type: none;
 }
-/* line 391, ../scss/main.scss */
+/* line 396, ../scss/main.scss */
 main .third .tabs ul li a {
   text-decoration: none;
   color: #666666;
 }
-/* line 397, ../scss/main.scss */
+/* line 402, ../scss/main.scss */
 main .third .tabs .tab {
   margin-top: 4vw;
   display: flex;
 }
-/* line 400, ../scss/main.scss */
+/* line 405, ../scss/main.scss */
 main .third .tabs .tab .left {
   width: 17vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-/* line 405, ../scss/main.scss */
+/* line 410, ../scss/main.scss */
 main .third .tabs .tab .left img {
   width: 17vw;
 }
-/* line 408, ../scss/main.scss */
+/* line 413, ../scss/main.scss */
 main .third .tabs .tab .left .btn {
   padding: 1vw;
   font-size: .8vw;
   margin-top: 2vw;
 }
-/* line 414, ../scss/main.scss */
+/* line 419, ../scss/main.scss */
 main .third .tabs .tab .right {
   margin-left: 2vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* line 419, ../scss/main.scss */
+/* line 424, ../scss/main.scss */
 main .third .tabs .tab .right .item {
   display: flex;
   align-items: start;
   width: 17vw;
   margin-top: 3vw;
 }
-/* line 424, ../scss/main.scss */
+/* line 429, ../scss/main.scss */
 main .third .tabs .tab .right .item img {
   margin-right: 1vw;
 }
-/* line 428, ../scss/main.scss */
+/* line 433, ../scss/main.scss */
 main .third .tabs .tab .right .item .content .title {
   font-size: 1vw;
   color: black;
 }
-/* line 432, ../scss/main.scss */
+/* line 437, ../scss/main.scss */
 main .third .tabs .tab .right .item .content .text {
   margin-top: .7vw;
   color: #666666;
@@ -505,11 +509,11 @@ main .third .tabs .tab .right .item .content .text {
   line-height: 1.2vw;
 }
 
-/* line 447, ../scss/main.scss */
+/* line 452, ../scss/main.scss */
 .paralax .wrapper {
   padding-bottom: 40px;
 }
-/* line 449, ../scss/main.scss */
+/* line 454, ../scss/main.scss */
 .paralax .wrapper .title {
   width: 100%;
   padding-top: 4vw;
@@ -517,7 +521,7 @@ main .third .tabs .tab .right .item .content .text {
   font-size: 2vw;
   text-align: center;
 }
-/* line 457, ../scss/main.scss */
+/* line 462, ../scss/main.scss */
 .paralax .wrapper .slider-box {
   width: 55vw;
   margin: auto;
@@ -525,7 +529,7 @@ main .third .tabs .tab .right .item .content .text {
   height: 53vh;
   margin-top: 4vw;
 }
-/* line 464, ../scss/main.scss */
+/* line 469, ../scss/main.scss */
 .paralax .wrapper .slider-box .item {
   width: 26vw;
   background-color: white;
@@ -537,14 +541,14 @@ main .third .tabs .tab .right .item .content .text {
   flex-direction: column;
   justify-content: space-between;
 }
-/* line 475, ../scss/main.scss */
+/* line 480, ../scss/main.scss */
 .paralax .wrapper .slider-box .item .slid-wrapper .slid-title {
   font-size: 1.1vw;
   font-weight: bolder;
   color: #8BA900;
   text-align: center;
 }
-/* line 482, ../scss/main.scss */
+/* line 487, ../scss/main.scss */
 .paralax .wrapper .slider-box .item .slid-wrapper .content {
   color: #666666;
   font-size: .8vw;
@@ -552,12 +556,12 @@ main .third .tabs .tab .right .item .content .text {
   line-height: 1.6;
   margin-top: 1vw;
 }
-/* line 491, ../scss/main.scss */
+/* line 496, ../scss/main.scss */
 .paralax .wrapper .slider-box .item .slid-footer {
   position: relative;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
-/* line 494, ../scss/main.scss */
+/* line 499, ../scss/main.scss */
 .paralax .wrapper .slider-box .item .slid-footer img {
   width: 2.7vw;
   margin: auto;
@@ -565,14 +569,14 @@ main .third .tabs .tab .right .item .content .text {
   left: 45%;
   top: -3.5vh;
 }
-/* line 501, ../scss/main.scss */
+/* line 506, ../scss/main.scss */
 .paralax .wrapper .slider-box .item .slid-footer .name {
   text-align: center;
   font-size: 1vw;
   font-weight: bolder;
   padding-top: 2vw;
 }
-/* line 512, ../scss/main.scss */
+/* line 517, ../scss/main.scss */
 .paralax .wrapper .title-partners {
   width: 100%;
   padding-top: 6vw;
@@ -580,7 +584,7 @@ main .third .tabs .tab .right .item .content .text {
   font-size: 2vw;
   text-align: center;
 }
-/* line 520, ../scss/main.scss */
+/* line 525, ../scss/main.scss */
 .paralax .wrapper .partners-block {
   width: 55vw;
   margin: auto;
@@ -588,7 +592,7 @@ main .third .tabs .tab .right .item .content .text {
   background: white;
   height: 20vh;
 }
-/* line 526, ../scss/main.scss */
+/* line 531, ../scss/main.scss */
 .paralax .wrapper .partners-block .item {
   width: 8vw;
   height: 100%;
@@ -596,48 +600,48 @@ main .third .tabs .tab .right .item .content .text {
   align-items: center;
   height: 20vh;
 }
-/* line 532, ../scss/main.scss */
+/* line 537, ../scss/main.scss */
 .paralax .wrapper .partners-block .item img {
   width: 8vw;
 }
 
-/* line 541, ../scss/main.scss */
+/* line 546, ../scss/main.scss */
 footer {
   width: 100%;
   background-color: white;
   margin-top: 2vw;
   padding: 4vw 0vw;
 }
-/* line 546, ../scss/main.scss */
+/* line 551, ../scss/main.scss */
 footer .wrapper {
   width: 55vw;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
-/* line 551, ../scss/main.scss */
+/* line 556, ../scss/main.scss */
 footer .wrapper .company {
   width: 15vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-/* line 556, ../scss/main.scss */
+/* line 561, ../scss/main.scss */
 footer .wrapper .company .title {
   font-size: .7vw;
 }
-/* line 559, ../scss/main.scss */
+/* line 564, ../scss/main.scss */
 footer .wrapper .company img {
   width: 125px;
   margin-top: .5vw;
 }
-/* line 565, ../scss/main.scss */
+/* line 570, ../scss/main.scss */
 footer .wrapper .address {
   width: 18vw;
   font-size: .8vw;
   line-height: 1.5;
 }
-/* line 571, ../scss/main.scss */
+/* line 576, ../scss/main.scss */
 footer .wrapper .links {
   width: 20vw;
   display: flex;
@@ -646,26 +650,26 @@ footer .wrapper .links {
 }
 
 @media (max-width: 930px) {
-  /* line 582, ../scss/main.scss */
+  /* line 587, ../scss/main.scss */
   .navigation_mobile {
     border-top: 0.55px solid rgba(0, 0, 0, 0.35);
     background-color: white;
     width: 100%;
     display: block;
   }
-  /* line 587, ../scss/main.scss */
+  /* line 592, ../scss/main.scss */
   .navigation_mobile .row {
     padding: 1vw;
   }
-  /* line 589, ../scss/main.scss */
+  /* line 594, ../scss/main.scss */
   .navigation_mobile .row img {
     width: 7vw;
   }
-  /* line 592, ../scss/main.scss */
+  /* line 597, ../scss/main.scss */
   .navigation_mobile .row .close {
     display: none;
   }
-  /* line 596, ../scss/main.scss */
+  /* line 601, ../scss/main.scss */
   .navigation_mobile .wrapper {
     display: none;
     width: 100%;
@@ -673,13 +677,13 @@ footer .wrapper .links {
     position: absolute;
     z-index: 1;
   }
-  /* line 602, ../scss/main.scss */
+  /* line 607, ../scss/main.scss */
   .navigation_mobile .wrapper .item {
     font-size: 4vw;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     padding: 3vw;
   }
-  /* line 607, ../scss/main.scss */
+  /* line 612, ../scss/main.scss */
   .navigation_mobile .wrapper .item a {
     text-decoration: none;
     color: gray;
@@ -687,7 +691,7 @@ footer .wrapper .links {
     letter-spacing: .3vw;
   }
 
-  /* line 617, ../scss/main.scss */
+  /* line 622, ../scss/main.scss */
   header {
     padding: 2vw 0vw;
     display: flex;
@@ -697,64 +701,64 @@ footer .wrapper .links {
     z-index: 1000;
     width: 100%;
   }
-  /* line 625, ../scss/main.scss */
+  /* line 630, ../scss/main.scss */
   header .wrapper {
     width: 100%;
   }
-  /* line 627, ../scss/main.scss */
+  /* line 632, ../scss/main.scss */
   header .wrapper .row {
     justify-content: center;
   }
-  /* line 629, ../scss/main.scss */
+  /* line 634, ../scss/main.scss */
   header .wrapper .row .phone {
     display: none;
   }
-  /* line 632, ../scss/main.scss */
+  /* line 637, ../scss/main.scss */
   header .wrapper .row .btn {
     display: none;
   }
-  /* line 635, ../scss/main.scss */
+  /* line 640, ../scss/main.scss */
   header .wrapper .row .profil {
     display: none;
   }
-  /* line 640, ../scss/main.scss */
+  /* line 645, ../scss/main.scss */
   header .navigation {
     display: none;
   }
 
-  /* line 645, ../scss/main.scss */
+  /* line 650, ../scss/main.scss */
   main {
     width: 100%;
   }
-  /* line 647, ../scss/main.scss */
+  /* line 652, ../scss/main.scss */
   main .info_box {
     width: 100%;
     margin-top: 20vh;
     height: unset;
   }
-  /* line 651, ../scss/main.scss */
+  /* line 656, ../scss/main.scss */
   main .info_box .right {
     display: none;
   }
-  /* line 654, ../scss/main.scss */
+  /* line 659, ../scss/main.scss */
   main .info_box .left {
     width: 100%;
     padding: 7vw;
   }
-  /* line 657, ../scss/main.scss */
+  /* line 662, ../scss/main.scss */
   main .info_box .left .title {
     font-size: 10vw;
   }
-  /* line 661, ../scss/main.scss */
+  /* line 666, ../scss/main.scss */
   main .info_box .left .text {
     font-size: 5vw;
   }
-  /* line 665, ../scss/main.scss */
+  /* line 670, ../scss/main.scss */
   main .info_box .left .info {
     font-size: 4vw;
     line-height: 1.5;
   }
-  /* line 669, ../scss/main.scss */
+  /* line 674, ../scss/main.scss */
   main .info_box .left .btn {
     width: 100%;
     font-size: 3.5vw;
@@ -763,32 +767,32 @@ footer .wrapper .links {
     box-sizing: border-box;
   }
 
-  /* line 682, ../scss/main.scss */
+  /* line 687, ../scss/main.scss */
   .first .wrapper {
     width: 100% !important;
     display: flex;
     flex-direction: column;
   }
-  /* line 687, ../scss/main.scss */
+  /* line 692, ../scss/main.scss */
   .first .wrapper .title {
     font-size: 10vw !important;
   }
-  /* line 692, ../scss/main.scss */
+  /* line 697, ../scss/main.scss */
   .first .wrapper .row .inputs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
   }
-  /* line 697, ../scss/main.scss */
+  /* line 702, ../scss/main.scss */
   .first .wrapper .row .inputs .item_wrap {
     margin-top: 5vw;
   }
-  /* line 699, ../scss/main.scss */
+  /* line 704, ../scss/main.scss */
   .first .wrapper .row .inputs .item_wrap .flor {
     font-size: 4vw !important;
   }
-  /* line 702, ../scss/main.scss */
+  /* line 707, ../scss/main.scss */
   .first .wrapper .row .inputs .item_wrap .item {
     border: 1px solid #ffff !important;
     border-radius: 6px !important;
@@ -798,18 +802,18 @@ footer .wrapper .links {
     width: 70vw !important;
     padding: 3vw 2vw 4vw 3vw !important;
   }
-  /* line 710, ../scss/main.scss */
+  /* line 715, ../scss/main.scss */
   .first .wrapper .row .inputs .item_wrap .item.small {
     width: 50vw !important;
   }
-  /* line 713, ../scss/main.scss */
+  /* line 718, ../scss/main.scss */
   .first .wrapper .row .inputs .item_wrap .item .header {
     font-size: 3vw !important;
     flex: 100% !important;
     color: #D3D3D3 !important;
     padding-left: 9vw !important;
   }
-  /* line 719, ../scss/main.scss */
+  /* line 724, ../scss/main.scss */
   .first .wrapper .row .inputs .item_wrap .item input {
     background: transparent;
     outline: none;
@@ -817,19 +821,19 @@ footer .wrapper .links {
     font-size: 5vw !important;
     color: white;
   }
-  /* line 725, ../scss/main.scss */
+  /* line 730, ../scss/main.scss */
   .first .wrapper .row .inputs .item_wrap .item input::placeholder {
     color: #D3D3D3;
     font-size: 5vw !important;
   }
-  /* line 732, ../scss/main.scss */
+  /* line 737, ../scss/main.scss */
   .first .wrapper .row .inputs .btn {
     margin-left: 1.5vw !important;
     padding: 4vw !important;
     font-size: 5vw !important;
     margin-bottom: 1.5vw !important;
   }
-  /* line 740, ../scss/main.scss */
+  /* line 745, ../scss/main.scss */
   .first .wrapper .row .items {
     display: flex !important;
     flex-direction: column !important;
@@ -837,58 +841,58 @@ footer .wrapper .links {
     width: 100% !important;
     margin-top: 5vw !important;
   }
-  /* line 746, ../scss/main.scss */
+  /* line 751, ../scss/main.scss */
   .first .wrapper .row .items .item {
     background: white !important;
     width: 70vw !important;
     margin-top: 3vw !important;
   }
-  /* line 750, ../scss/main.scss */
+  /* line 755, ../scss/main.scss */
   .first .wrapper .row .items .item .header {
     display: flex !important;
     padding: 4vw 2vw 2vw 4vw !important;
     justify-content: space-between !important;
   }
-  /* line 754, ../scss/main.scss */
+  /* line 759, ../scss/main.scss */
   .first .wrapper .row .items .item .header .name {
     width: 100% !important;
     font-size: 5vw !important;
     color: #3C76C8 !important;
   }
-  /* line 759, ../scss/main.scss */
+  /* line 764, ../scss/main.scss */
   .first .wrapper .row .items .item .header img {
     width: 13vw !important;
   }
-  /* line 763, ../scss/main.scss */
+  /* line 768, ../scss/main.scss */
   .first .wrapper .row .items .item .flor {
     display: flex !important;
     font-size: 4vw !important;
     padding: 3vw 2vw !important;
   }
 
-  /* line 774, ../scss/main.scss */
+  /* line 779, ../scss/main.scss */
   .second {
     width: 100%;
     padding: 5vw 0vw;
   }
-  /* line 777, ../scss/main.scss */
+  /* line 782, ../scss/main.scss */
   .second .wrapper {
     width: 70vw !important;
     display: flex !important;
     flex-direction: column !important;
     padding: 11vw !important;
   }
-  /* line 782, ../scss/main.scss */
+  /* line 787, ../scss/main.scss */
   .second .wrapper img {
     width: 20vw !important;
   }
-  /* line 785, ../scss/main.scss */
+  /* line 790, ../scss/main.scss */
   .second .wrapper .title {
     font-size: 6vw !important;
     font-weight: bold !important;
     text-align: center !important;
   }
-  /* line 791, ../scss/main.scss */
+  /* line 796, ../scss/main.scss */
   .second .wrapper input {
     padding: 5vw !important;
     color: #666666 !important;
@@ -897,14 +901,14 @@ footer .wrapper .links {
     border-radius: 6px !important;
     margin-top: 4vw !important;
   }
-  /* line 800, ../scss/main.scss */
+  /* line 805, ../scss/main.scss */
   .second .wrapper .btn {
     padding: 4vw !important;
     font-size: 4vw !important;
     margin-top: 4vw !important;
   }
 
-  /* line 809, ../scss/main.scss */
+  /* line 814, ../scss/main.scss */
   .third .header {
     width: 100% !important;
     text-align: center !important;
@@ -912,26 +916,26 @@ footer .wrapper .links {
     color: #333333 !important;
     font-weight: bold !important;
   }
-  /* line 816, ../scss/main.scss */
+  /* line 821, ../scss/main.scss */
   .third .tabs {
     padding: 4vw !important;
     width: 100% !important;
     box-sizing: border-box !important;
   }
-  /* line 820, ../scss/main.scss */
+  /* line 825, ../scss/main.scss */
   .third .tabs .tab {
     flex-direction: column;
     align-items: center;
   }
-  /* line 823, ../scss/main.scss */
+  /* line 828, ../scss/main.scss */
   .third .tabs .tab .left {
     width: 100%;
   }
-  /* line 825, ../scss/main.scss */
+  /* line 830, ../scss/main.scss */
   .third .tabs .tab .left img {
     width: 70vw !important;
   }
-  /* line 828, ../scss/main.scss */
+  /* line 833, ../scss/main.scss */
   .third .tabs .tab .left .btn {
     width: fit-content !important;
     padding: 4vw !important;
@@ -940,110 +944,110 @@ footer .wrapper .links {
     width: 50vw !important;
     text-align: center !important;
   }
-  /* line 837, ../scss/main.scss */
+  /* line 842, ../scss/main.scss */
   .third .tabs .tab .right {
     margin-left: 2vw !important;
     display: flex !important;
     flex-wrap: wrap !important;
     justify-content: space-between !important;
   }
-  /* line 842, ../scss/main.scss */
+  /* line 847, ../scss/main.scss */
   .third .tabs .tab .right .item {
     display: flex !important;
     align-items: start !important;
     width: 100% !important;
     margin-top: 8vw !important;
   }
-  /* line 848, ../scss/main.scss */
+  /* line 853, ../scss/main.scss */
   .third .tabs .tab .right .item .content .title {
     font-size: 5vw !important;
     color: black !important;
   }
-  /* line 852, ../scss/main.scss */
+  /* line 857, ../scss/main.scss */
   .third .tabs .tab .right .item .content .text {
     margin-top: 0.7vw !important;
     color: #666666 !important;
     font-size: 4.5vw !important;
     line-height: 1.5 !important;
   }
-  /* line 859, ../scss/main.scss */
+  /* line 864, ../scss/main.scss */
   .third .tabs .tab .right .item img {
     margin-right: 4vw !important;
     width: 15vw !important;
   }
 
-  /* line 871, ../scss/main.scss */
+  /* line 876, ../scss/main.scss */
   .paralax .wrapper .title {
     font-size: 13vw !important;
   }
-  /* line 874, ../scss/main.scss */
+  /* line 879, ../scss/main.scss */
   .paralax .wrapper .title-partners {
     margin-top: 35vh !important;
     font-size: 8vw !important;
   }
-  /* line 878, ../scss/main.scss */
+  /* line 883, ../scss/main.scss */
   .paralax .wrapper .partners-block {
     margin-top: 5vh !important;
     width: 90vw !important;
   }
-  /* line 881, ../scss/main.scss */
+  /* line 886, ../scss/main.scss */
   .paralax .wrapper .partners-block .item {
     width: unset !important;
   }
-  /* line 883, ../scss/main.scss */
+  /* line 888, ../scss/main.scss */
   .paralax .wrapper .partners-block .item img {
     width: 60vw !important;
     margin: auto;
   }
-  /* line 889, ../scss/main.scss */
+  /* line 894, ../scss/main.scss */
   .paralax .wrapper .slider-box {
     width: 90vw !important;
   }
-  /* line 891, ../scss/main.scss */
+  /* line 896, ../scss/main.scss */
   .paralax .wrapper .slider-box .item {
     height: unset !important;
     width: 100% !important;
   }
-  /* line 895, ../scss/main.scss */
+  /* line 900, ../scss/main.scss */
   .paralax .wrapper .slider-box .item .slid-wrapper .slid-title {
     font-size: 6vw !important;
     margin-top: 2vw !important;
   }
-  /* line 899, ../scss/main.scss */
+  /* line 904, ../scss/main.scss */
   .paralax .wrapper .slider-box .item .slid-wrapper .content {
     font-size: 5vw !important;
     margin-top: 2vw !important;
   }
-  /* line 906, ../scss/main.scss */
+  /* line 911, ../scss/main.scss */
   .paralax .wrapper .slider-box .item .slid-footer .name {
     font-size: 4vw !important;
   }
 
-  /* line 916, ../scss/main.scss */
+  /* line 921, ../scss/main.scss */
   footer .wrapper {
     width: 100%;
     box-sizing: border-box;
     padding: 0vw 5vw;
     flex-direction: column;
   }
-  /* line 921, ../scss/main.scss */
+  /* line 926, ../scss/main.scss */
   footer .wrapper .company {
     display: flex;
     flex-direction: column;
     align-items: unset;
     width: unset;
   }
-  /* line 926, ../scss/main.scss */
+  /* line 931, ../scss/main.scss */
   footer .wrapper .company .title {
     font-size: 4vw;
   }
-  /* line 930, ../scss/main.scss */
+  /* line 935, ../scss/main.scss */
   footer .wrapper .address {
     font-size: 4vw;
     margin-top: 2vw;
     width: 100%;
   }
-  /* line 936, ../scss/main.scss */
+  /* line 941, ../scss/main.scss */
   footer .wrapper .links {
     width: 100%;
     font-size: 4vw;
@@ -1051,7 +1055,7 @@ footer .wrapper .links {
     display: flex;
     flex-direction: column;
   }
-  /* line 942, ../scss/main.scss */
+  /* line 947, ../scss/main.scss */
   footer .wrapper .links a {
     margin-top: 3vw;
   }
