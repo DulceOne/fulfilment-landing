@@ -73,6 +73,10 @@ header {
           transition-property: background-color, box-shadow, border, color, opacity, transform;
         }
       }
+      .btn {
+        font-size: .6vw;
+        padding: .7vw 1vw;
+      }
     }
   }
   .navigation {
@@ -205,6 +209,8 @@ main {
           }
           .btn {
             align-self: center;
+            font-size: .6vw;
+            padding: .7vw 1vw;
           }
         }
       }
@@ -392,6 +398,9 @@ main {
     .tabs {
       width: 55vw;
       margin: auto;
+      .tab-btn {
+        display: none;
+      }
       ul {
         display: flex;
         width: 32vw;
@@ -830,6 +839,9 @@ footer {
       padding: 4vw!important;
       width: 100% !important;
       box-sizing: border-box!important;
+      .tab-btn {
+        display: block!important;
+      }
       .tab {
         flex-direction: column;
         align-items: center;
