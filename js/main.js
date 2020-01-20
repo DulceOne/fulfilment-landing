@@ -86,4 +86,10 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop:$(`#${element}`).position().top}, 500);
 
     }
+
+    $( function() {
+        $( "#accordion" ).accordion({
+            collapsible: true
+        });
+    } );
 });
