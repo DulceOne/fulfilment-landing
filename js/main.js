@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+
     $("#owl-first").owlCarousel(
         {
             items: 2,
@@ -92,4 +93,6 @@ $(document).ready(function(){
             collapsible: true
         });
     } );
+
+
 });

@@ -27,9 +27,10 @@ header {
   border-top: .55px solid rgba(0,0,0,.1);
 
   .wrapper {
-    width: 55vw;
+    max-width: 1060px;
+    width: 100%;
     margin: auto;
-    padding: .7vw;
+    padding: 5px;
     .row {
       display: flex;
       align-items: center;
@@ -50,7 +51,7 @@ header {
           }
         }
         .item {
-          font-size: .85vw;
+          font-size: 15px;
           color: #333;
           font-weight: bolder;
           &:nth-child(n+3) {
@@ -68,14 +69,14 @@ header {
         a {
           text-decoration: none;
           color: #333333;
-          font-size: .8vw;
+          font-size: 15px;
           background-color: transparent;
           transition-property: background-color, box-shadow, border, color, opacity, transform;
         }
       }
       .btn {
-        font-size: .6vw;
-        padding: .7vw 1vw;
+        font-size: 13px;
+        padding: 10px 20px;
       }
     }
   }
@@ -85,15 +86,16 @@ header {
     border-bottom: .55px solid rgba(0,0,0,.35);
 
     .wrapper {
-      width: 55vw;
+      max-width: 1060px;
+      width: 100%;
       margin: auto;
       display: flex;
-      padding: .7vw;
+      padding: 10px;
       .item {
         a {
           color: #333333;
           text-transform: uppercase;
-          font-size: .72vw;
+          font-size: 14px ;
           padding: 5px 15px;
           text-decoration: none;
           &:hover {
@@ -147,11 +149,12 @@ main {
   font-family: 'Rubik', sans-serif;
   background-color: rgb(245, 245, 245);
   .info_box {
-    width: 55vw;
+    max-width: 1060px;
+    width: 100%;
     margin: auto;
     display: flex;
     .left {
-      width: 17vw;
+      width: 40%;
       padding: 1.5vw .5vw 1.5vw 2vw;
       background-image: url("../assets/images/dostavim_ny_11.png");
       background-size: cover;
@@ -159,29 +162,29 @@ main {
       color: #666666;
       .title {
         color: #3C76C8;
-        font-size: 2vw;
+        font-size: 38px;
         font-weight: bolder;
       }
       .text {
         line-height: 30px;
-        font-size: 1vw;
+        font-size: 20px;
         margin-top: 1vw;
-        font-weight: bold;
+        font-weight: 500;
       }
       .info {
         margin-top: 1vw;
-        font-size: .80vw;
+        font-size: 15px;
         line-height: 1.2vw;
         font-weight: 500;
       }
 
       .btn {
         margin-top: 3vw;
-        font-size: .7vw;
+        font-size: 15px;
       }
     }
     .right {
-      width: 38vw;
+      width: 60%;
       background-image: url("../assets/images/happy_bz.jpg");
       background-size:cover;
       background-repeat: no-repeat;
@@ -193,7 +196,7 @@ main {
         bottom: 0px;
         background-color: rgba($primary, .8);
         color: white;
-        width: 16vw;
+        width: 40%;
         padding: 1vw;
         .item {
           height: 20vh;
@@ -201,15 +204,15 @@ main {
           flex-direction: column;
           justify-content: space-between;
           .title {
-            font-size: 1vw;
+            font-size: 22px;
           }
           .content {
-            font-size: .8vw;
+            font-size: 15px;
             margin-top: .5vw;
           }
           .btn {
             align-self: center;
-            font-size: .6vw;
+            font-size: 14px;
             padding: .7vw 1vw;
           }
         }
@@ -222,10 +225,11 @@ main {
     padding: 3vw 3vw 2vw 3vw;
     background-image: url("../assets/images/dostavim_ny_02.png");
     .wrapper {
-      width: 55vw;
+      max-width: 1060px;
+      width: 100%;
       margin: auto;
       .title {
-        font-size: 2.2vw;
+        font-size: 40px;
         color: white;
         font-weight: bolder;
         text-align: center;
@@ -233,11 +237,11 @@ main {
         margin-top: 1vw;
       }
       .row {
-        display: flex;
         margin-top: 1vw;
         .inputs {
           display: flex;
           align-items: center;
+          justify-content: space-between;
           .item_wrap {
             .flor {
               flex: 100%;
@@ -310,17 +314,19 @@ main {
           margin-top: 3vw;
           .item {
             background: white;
-            width: 13vw;
+            width: 240px;
             .header {
               display: flex;
-              padding: 1.5vw .5vw .5vw 1vw;
+              padding: 20px 15px 10px;
+              height: 50px;
+              justify-content: space-between;
               .company {
-                width: 3.5vw;
+                width: 33.3%;
+                text-align: right;
               }
               .name {
-                font-size: .8vw;
+                font-size: 15px;
                 color: #3C76C8;
-                width: 7vw;
               }
             }
             .custom_hr {
@@ -331,7 +337,7 @@ main {
 
             .flor {
               display: flex;
-              font-size: .9vw;
+              font-size: 15px;
               padding: 1.2vw .7vw;
               .weight, .day {
                 color: #666666;
@@ -354,31 +360,33 @@ main {
     width: 100%;
     padding: 5vw 0vw;
     .wrapper {
-      width: 50vw;
+      max-width: 1060px;
+      width: 100%;
       margin: auto;
       background: url("../assets/images/dostavim_ny_019.png"), url("../assets/images/perf-bg.png") center no-repeat;
       background-size: cover;
       display: flex;
       justify-content: space-between;
       padding: 2.5vw;
+      box-sizing: border-box;
       align-items: center;
       img {
         width: 4vw;
       }
       .title {
-        font-size: 1.2vw;
+        font-size: 22px;
         font-weight: bold;
       }
       input {
         padding: 1vw;
         color: #666666;
-        font-size: 1vw;
+        font-size: 18px;
         border: 1px solid rgba(0,0,0,.3);
         border-radius: 6px;
       }
       .btn {
-        padding: 1vw;
-        font-size: .8vw;
+        padding: 20px;
+        font-size: 15px;
       }
     }
   }
@@ -394,24 +402,26 @@ main {
     .header {
       width: 100%;
       text-align: center;
-      font-size: 2.2vw;
+      font-size: 40px;
       color: #333333;
       font-weight: bold;
     }
     .tabs {
-      width: 55vw;
+      max-width: 1060px;
+      width: 100%;
       margin: auto;
       .tab-btn {
         display: none;
       }
       ul {
         display: flex;
-        width: 32vw;
+        max-width: 550px;
+        width: 100%;
         margin: auto;
         justify-content: space-between;
         margin-top: 1vw;
         li {
-          font-size: 1vw;
+          font-size: 16px;
           list-style-type: none;
           a {
             text-decoration: none;
@@ -428,11 +438,11 @@ main {
           flex-direction: column;
           align-items: center;
           img {
-            width: 17vw;
+            width: 300px;
           }
           .btn {
             padding: 1vw;
-            font-size: .8vw;
+            font-size: 15px;
             margin-top: 2vw;
           }
         }
@@ -444,21 +454,21 @@ main {
           .item {
             display: flex;
             align-items: start;
-            width: 17vw;
+            width: 40%;
             margin-top: 3vw;
             img {
               margin-right: 1vw;
             }
             .content {
               .title {
-                font-size: 1vw;
+                font-size: 18px;
                 color: black
               }
               .text {
                 margin-top: .7vw;
                 color: #666666;
-                font-size: .8vw;
-                line-height: 1.2vw;
+                font-size: 15px;
+                line-height: 25px;
               }
             }
           }
@@ -475,30 +485,32 @@ main {
       width: 100%;
       padding-top: 4vw;
       color: black;
-      font-size: 2vw;
+      font-size: 40px;
+      font-weight: bold;
       text-align: center;
     }
 
     .slider-box {
-      width: 55vw;
+      max-width: 1060px;
+      width: 100%;
       margin: auto;
       background-color: white;
       height: 53vh;
       margin-top: 4vw;
 
       .item {
-        width: 26vw;
+        width: 505px;
         background-color: white;
         box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.06);
         padding: 1.5vw 2vw;
         box-sizing: border-box;
-        height: 53vh;
+        height: 520px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         .slid-wrapper {
           .slid-title {
-            font-size: 1.1vw;
+            font-size: 22px;
             font-weight: bolder;
             color: $primary;
             text-align: center;
@@ -506,7 +518,7 @@ main {
 
           .content {
             color: #666666;
-            font-size: .8vw;
+            font-size: 15px;
             text-align: center;
             line-height: 1.6;
             margin-top: 1vw;
@@ -538,12 +550,14 @@ main {
       width: 100%;
       padding-top: 6vw;
       color: black;
-      font-size: 2vw;
+      font-size: 40px;
+      font-weight: bold;
       text-align: center;
     }
 
     .partners-block {
-      width: 55vw;
+      max-width: 1060px;
+      width: 100%;
       margin: auto;
       margin-top: 2vw;
       background: white;
@@ -569,17 +583,17 @@ footer {
   margin-top: 2vw;
   padding: 4vw 0vw;
   .wrapper {
-    width: 55vw;
+    max-width: 1060px;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     .company {
-      width: 15vw;
       display: flex;
       flex-direction: column;
       align-items: center;
       .title {
-        font-size: .7vw;
+        font-size: 14px;
       }
       img {
         width: 125px;
@@ -588,16 +602,15 @@ footer {
     }
 
     .address {
-      width: 18vw;
-      font-size: .8vw;
+      font-size: 14px;
       line-height: 1.5;
     }
 
     .links {
-      width: 20vw;
+      width: 370px;
       display: flex;
       justify-content: space-between;
-      font-size: .7vw;
+      font-size: 14px;
     }
   }
 }
